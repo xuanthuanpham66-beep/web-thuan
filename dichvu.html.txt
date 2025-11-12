@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kỹ Năng - PHẠM XUÂN THUẬN</title>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9ecef;
+            color: #343a40;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1.5em 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            background-color: #343a40;
+            text-align: center;
+            padding: 0.8em 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: #0056b3;
+        }
+        nav a.active {
+            background-color: #28a745;
+            color: white;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 30px auto;
+            overflow: hidden;
+            padding-bottom: 60px;
+        }
+        section {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+        }
+        h2 {
+            color: #007bff;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h3 {
+            color: #343a40;
+            margin-top: 25px;
+        }
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+        .skill-list li {
+            background-color: #f8f9fa;
+            border-left: 3px solid #007bff;
+            margin-bottom: 8px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Trang Giới Thiệu Cá Nhân</h1>
+        <p>PHẠM XUÂN THUẬN - Lớp **41T2**</p>
+    </header>
+
+    <nav>
+        <a href="index.html">🏠 Trang Chủ</a>
+        <a href="thongtin.html">👤 Thông Tin Cá Nhân</a>
+        <a class="active" href="dichvu.html">🛠️ Dịch Vụ/Kỹ Năng</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>🛠️ Dịch Vụ & Kỹ Năng</h2>
+            <p>Dưới đây là các kỹ năng chuyên môn và kỹ năng mềm tôi đã phát triển trong quá trình học tại lớp **41T2**:</p>
+            
+            <h3>Kỹ năng chuyên môn:</h3>
+            <ul class="skill-list">
+                <li>**Lập trình:** HTML5, CSS3, (Thêm ngôn ngữ: Python, C++, v.v.)</li>
+                <li>**Công cụ:** Sử dụng thành thạo Git, VS Code.</li>
+                <li>**Phần mềm:** Microsoft Office (Word, Excel, PowerPoint).</li>
+            </ul>
+
+            <h3>Kỹ năng mềm:</h3>
+            <ul class="skill-list">
+                <li>**Giải quyết vấn đề:** Có khả năng phân tích và tìm ra giải pháp tối ưu.</li>
+                <li>**Làm việc nhóm:** Tinh thần trách nhiệm cao, đóng góp tích cực vào dự án nhóm.</li>
+                <li>**Quản lý thời gian:** Hoàn thành tốt các bài tập và deadline học tập.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 PHẠM XUÂN THUẬN | Lớp 41T2</p>
+    </footer>
+
+</body>
+</html>

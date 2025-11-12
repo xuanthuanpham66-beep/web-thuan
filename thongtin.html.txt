@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông Tin - PHẠM XUÂN THUẬN</title>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9ecef;
+            color: #343a40;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1.5em 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            background-color: #343a40;
+            text-align: center;
+            padding: 0.8em 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: #0056b3;
+        }
+        nav a.active {
+            background-color: #28a745;
+            color: white;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 30px auto;
+            overflow: hidden;
+            padding-bottom: 60px;
+        }
+        section {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+        }
+        h2 {
+            color: #007bff;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h3 {
+            color: #343a40;
+            margin-top: 25px;
+        }
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+        .quote {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #856404;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Trang Giới Thiệu Cá Nhân</h1>
+        <p>PHẠM XUÂN THUẬN - Lớp **41T2**</p>
+    </header>
+
+    <nav>
+        <a href="index.html">🏠 Trang Chủ</a>
+        <a class="active" href="thongtin.html">👤 Thông Tin Cá Nhân</a>
+        <a href="dichvu.html">🛠️ Dịch Vụ/Kỹ Năng</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>👤 Thông Tin Cá Nhân</h2>
+            <p>Tôi là sinh viên thuộc lớp **41T2**, chuyên ngành (Điền chuyên ngành của bạn vào đây).</p>
+            <h3>Chi tiết cơ bản:</h3>
+            <ul>
+                <li>**Họ và Tên:** PHẠM XUÂN THUẬN</li>
+                <li>**Ngày sinh:** (Điền ngày sinh của bạn)</li>
+                <li>**Quê quán:** (Điền quê quán của bạn)</li>
+                <li>**Email:** (Điền email liên hệ của bạn)</li>
+            </ul>
+            <h3>Mục tiêu cá nhân:</h3>
+            <blockquote class="quote">
+                Mục tiêu của tôi là trở thành một [Vị trí mong muốn, ví dụ: Lập trình viên Front-end] chuyên nghiệp, áp dụng kiến thức từ lớp **41T2** vào các dự án thực tế và không ngừng học hỏi công nghệ mới.
+            </blockquote>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 PHẠM XUÂN THUẬN | Lớp 41T2</p>
+    </footer>
+
+</body>
+</html>
